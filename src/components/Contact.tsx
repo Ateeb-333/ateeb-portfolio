@@ -227,7 +227,7 @@ const Contact = () => {
                 </div>
                 <div className="text-left">
                   <p className="text-gray-500 text-xs sm:text-sm">Email</p>
-                  <p className="text-white group-hover:text-[#c9f31c] transition-colors text-sm sm:text-base">ateebxasd333@gmail.com</p>
+                  <p className="text-white group-hover:text-[#c9f31c] transition-colors text-sm sm:text-base">ateebasad333@gmail.com</p>
                 </div>
               </motion.a>
               
@@ -320,7 +320,7 @@ const Contact = () => {
                           onChange={handleChange}
                           onFocus={() => setFocusedField('name')}
                           onBlur={() => setFocusedField(null)}
-                          placeholder="John Doe"
+                          placeholder="your name"
                           className={`w-full px-4 py-3 sm:py-4 bg-[#1a1a1a] border-2 rounded-xl text-white placeholder-gray-600 focus:outline-none transition-all duration-300 text-sm sm:text-base ${
                             errors.name 
                               ? 'border-red-500 focus:border-red-500' 
@@ -358,7 +358,7 @@ const Contact = () => {
                           onChange={handleChange}
                           onFocus={() => setFocusedField('email')}
                           onBlur={() => setFocusedField(null)}
-                          placeholder="john@example.com"
+                          placeholder="abc@example.com"
                           className={`w-full px-4 py-3 sm:py-4 bg-[#1a1a1a] border-2 rounded-xl text-white placeholder-gray-600 focus:outline-none transition-all duration-300 text-sm sm:text-base ${
                             errors.email 
                               ? 'border-red-500 focus:border-red-500' 
