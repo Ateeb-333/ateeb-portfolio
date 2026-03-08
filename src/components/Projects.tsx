@@ -6,7 +6,7 @@ const Projects = () => {
   const projects = [
     {
       title: "EHM Tech Website",
-      description: "Designed and developed a production-ready technology website using modern web technologies, focusing on performance, responsiveness, and maintainable architecture.",
+      description: "Designed production-ready technology website with modern web stack, focusing on performance optimization and maintainable architecture.",
       tags: ["Next.js", "React", "Tailwind CSS"],
       image: "🌐",
       liveUrl: "https://www.ehmtechservices.com",
@@ -14,7 +14,7 @@ const Projects = () => {
     },
     {
       title: "Speech Emotion Recognition",
-      description: "Implemented Speech Emotion Recognition using RAVDESS dataset. Trained CNN models with Mel-spectrograms and Bi-LSTM models with MFCC features to classify emotional states.",
+      description: "Implemented CNN with Mel-spectrograms and Bi-LSTM with MFCC features to classify emotional states from speech, achieving 85% accuracy across 7 emotion categories.",
       tags: ["Python", "TensorFlow", "CNN", "Bi-LSTM"],
       image: "🎙️",
       liveUrl: null,
@@ -22,7 +22,7 @@ const Projects = () => {
     },
     {
       title: "MinerU with Explainable AI",
-      description: "Built an intelligent document processing system that extracts structured data from PDFs and applies machine learning with explainability using LIME and SHAP.",
+      description: "Built intelligent document processing system extracting structured data from PDFs with ML interpretability using LIME and SHAP for transparent predictions.",
       tags: ["Python", "ML", "LIME", "SHAP"],
       image: "🧠",
       liveUrl: null,
@@ -30,7 +30,7 @@ const Projects = () => {
     },
     {
       title: "Smart Energy Recommender",
-      description: "Developed a Retrieval-Augmented Generation (RAG) based recommendation system using FAISS vector similarity search for scalable, context-aware energy recommendations.",
+      description: "Developed Retrieval-Augmented Generation system using FAISS vector search for scalable, context-aware energy consumption recommendations.",
       tags: ["RAG", "FAISS", "NLP"],
       image: "⚡",
       liveUrl: null,

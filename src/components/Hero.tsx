@@ -40,9 +40,9 @@ const Hero = () => {
             </h1>
             
             <p className="text-gray-400 text-base sm:text-lg max-w-md mb-6 sm:mb-8 leading-relaxed">
-              Software Engineer with experience in developing modern web applications and AI/ML solutions. 
-              Skilled in building automation and web scraping solutions, designing backend services, 
-              and integrating databases to support scalable business workflows.
+              Full Stack Software Engineer with 3+ years building scalable web applications, automation systems, and AI/ML solutions. 
+              Expert in Next.js, React, Node.js, Python with proven ability to deliver production-ready applications 
+              and intelligent automation tools.
             </p>
 
             {/* CTA Buttons */}
@@ -71,7 +71,7 @@ const Hero = () => {
                    className="w-10 h-10 rounded-full border border-gray-700 flex items-center justify-center text-gray-400 hover:border-[#c9f31c] hover:text-[#c9f31c] transition-all">
                   <FaGithub size={18} />
                 </a>
-                <a href="https://www.linkedin.com/in/ateeb-chaudary-a6a0a0263/" target="_blank" rel="noopener noreferrer"
+                <a href="https://www.linkedin.com/in/ateeb-chaudary" target="_blank" rel="noopener noreferrer"
                    className="w-10 h-10 rounded-full border border-gray-700 flex items-center justify-center text-gray-400 hover:border-[#c9f31c] hover:text-[#c9f31c] transition-all">
                   <FaLinkedin size={18} />
                 </a>
@@ -91,7 +91,7 @@ const Hero = () => {
             className="relative order-2 lg:order-2"
           >
             {/* Main Image Container */}
-            <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden bg-gradient-to-br from-gray-800 to-gray-900 aspect-[4/5] max-w-sm mx-auto lg:max-w-none">
+            <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden bg-gradient-to-br from-gray-800 to-gray-900 aspect-[4/4] max-w-sm mx-auto lg:max-w-none">
               {/* Placeholder gradient background */}
               <div className="absolute inset-0 bg-gradient-to-br from-[#1a1a2e] via-[#16213e] to-[#0f0f0f]">
                 {/* Wave decoration */}

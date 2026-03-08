@@ -1,7 +1,7 @@
 'use client';
 import { motion } from 'framer-motion';
-import { SiJavascript, SiPython, SiCplusplus, SiSharp, SiMysql, SiPostgresql, SiHtml5, SiCss3, SiNextdotjs, SiReact, SiNodedotjs, SiExpress, SiWordpress, SiTableau, SiTailwindcss, SiBootstrap, SiPandas, SiNumpy, SiScikitlearn, SiTensorflow, SiPytorch, SiOpencv, SiSelenium } from 'react-icons/si';
-import { TbChartLine, TbWaveSine, TbRobot } from 'react-icons/tb';
+import { SiJavascript, SiPython, SiCplusplus, SiSharp, SiMysql, SiPostgresql, SiHtml5, SiCss3, SiNextdotjs, SiReact, SiNodedotjs, SiExpress, SiWordpress, SiTableau, SiTailwindcss, SiBootstrap, SiPandas, SiNumpy, SiScikitlearn, SiTensorflow, SiPytorch, SiOpencv, SiSelenium, SiDocker, SiGit, SiGithub } from 'react-icons/si';
+import { TbChartLine, TbWaveSine, TbRobot, TbSoup } from 'react-icons/tb';
 
 const Skills = () => {
   const skillCategories = [
@@ -20,34 +20,53 @@ const Skills = () => {
       ]
     },
     {
-      title: "Frameworks",
+      title: "Frontend",
       icon: "🚀",
       skills: [
-        { name: "Next.js", icon: <SiNextdotjs /> },
         { name: "React", icon: <SiReact /> },
-        { name: "Node.js", icon: <SiNodedotjs /> },
-        { name: "Express.js", icon: <SiExpress /> },
-        { name: "WordPress", icon: <SiWordpress /> },
-        { name: "Tableau", icon: <SiTableau /> },
-        { name: "Voiceflow", icon: <TbRobot /> },
+        { name: "Next.js", icon: <SiNextdotjs /> },
+        { name: "Tailwind", icon: <SiTailwindcss /> },
+        { name: "Bootstrap", icon: <SiBootstrap /> },
       ]
     },
     {
-      title: "Libraries & Tools",
+      title: "Backend",
+      icon: "⚙️",
+      skills: [
+        { name: "Node.js", icon: <SiNodedotjs /> },
+        { name: "Express.js", icon: <SiExpress /> },
+      ]
+    },
+    {
+      title: "AI/ML",
+      icon: "🧠",
+      skills: [
+        { name: "PyTorch", icon: <SiPytorch /> },
+        { name: "TensorFlow", icon: <SiTensorflow /> },
+        { name: "Scikit-learn", icon: <SiScikitlearn /> },
+        { name: "OpenCV", icon: <SiOpencv /> },
+      ]
+    },
+    {
+      title: "Data & Automation",
       icon: "🛠️",
       skills: [
-        { name: "Tailwind", icon: <SiTailwindcss /> },
-        { name: "Bootstrap", icon: <SiBootstrap /> },
         { name: "Pandas", icon: <SiPandas /> },
         { name: "NumPy", icon: <SiNumpy /> },
         { name: "Matplotlib", icon: <TbChartLine /> },
-        { name: "Seaborn", icon: <TbChartLine /> },
-        { name: "Scikit-learn", icon: <SiScikitlearn /> },
-        { name: "TensorFlow", icon: <SiTensorflow /> },
-        { name: "PyTorch", icon: <SiPytorch /> },
-        { name: "Librosa", icon: <TbWaveSine /> },
-        { name: "OpenCV", icon: <SiOpencv /> },
         { name: "Selenium", icon: <SiSelenium /> },
+        { name: "BeautifulSoup", icon: <TbSoup /> },
+      ]
+    },
+    {
+      title: "Tools & Platforms",
+      icon: "🔧",
+      skills: [
+        { name: "Git/GitHub", icon: <SiGithub /> },
+        { name: "Docker", icon: <SiDocker /> },
+        { name: "WordPress", icon: <SiWordpress /> },
+        { name: "Voiceflow", icon: <TbRobot /> },
+        { name: "Tableau", icon: <SiTableau /> },
       ]
     }
   ];

@@ -69,10 +69,13 @@ const About = () => {
             </h2>
             
             <p className="text-gray-400 leading-relaxed mb-4 sm:mb-6 text-sm sm:text-base">
-              I'm a Software Engineer with expertise in developing modern web applications and AI/ML solutions. I specialize in building automation tools, web scraping systems, and scalable backend services.
+              Full Stack Software Engineer with 3+ years building scalable web applications, automation systems, and AI/ML solutions. Expert in Next.js, React, Node.js, Python with proven ability to deliver production-ready applications and intelligent automation tools.
             </p>
-            <p className="text-gray-400 leading-relaxed mb-6 sm:mb-8 text-sm sm:text-base">
-              Currently pursuing BS in Artificial Intelligence at FAST-NUCES, combining academic knowledge with hands-on industry experience at EHM-IT Services.
+            <p className="text-gray-400 leading-relaxed mb-4 sm:mb-6 text-sm sm:text-base">
+              Strong foundation in cloud deployments, RESTful APIs, and modern development workflows. Currently pursuing BS in Artificial Intelligence at FAST-NUCES while leading technical implementations across multiple client projects.
+            </p>
+            <p className="text-gray-500 leading-relaxed mb-6 sm:mb-8 text-xs sm:text-sm italic">
+              Relevant Coursework: Data Structures, Algorithms, Machine Learning, Deep Learning, Computer Vision, NLP, Databases
             </p>
 
             {/* Skills */}

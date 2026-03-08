@@ -92,7 +92,7 @@ const Footer = () => {
               <FaGithub size={16} className="sm:w-[18px] sm:h-[18px]" />
             </a>
             <a
-              href="https://www.linkedin.com/in/ateeb-chaudary-a6a0a0263/"
+              href="https://www.linkedin.com/in/ateeb-chaudary"
               target="_blank"
               rel="noopener noreferrer"
               className="w-9 h-9 sm:w-10 sm:h-10 bg-[#141414] border border-gray-800 rounded-lg flex items-center justify-center text-gray-400 hover:border-[#c9f31c] hover:text-[#c9f31c] transition-all"
