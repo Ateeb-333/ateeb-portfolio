@@ -5,23 +5,33 @@ import { FaBriefcase, FaEnvelope, FaGraduationCap } from 'react-icons/fa';
 const Experience = () => {
   const experiences = [
     {
+      year: "2025",
+      title: "Full Stack Developer",
+      company: "Quantum Bytes",
+      location: "Faisalabad, Pakistan (Hybrid)",
+      period: "January 2025 - Present",
+      icon: <FaBriefcase />,
+      description: "Architect and develop full-stack web applications using Next.js, React, and Node.js with focus on scalability and performance. Design and implement RESTful APIs, authentication systems, and database schemas. Manage end-to-end deployment pipelines ensuring 99.9% uptime.",
+      current: true
+    },
+    {
       year: "2023",
       title: "Software Engineer – Web Applications & Automation",
-      company: "EHM-IT Services",
+      company: "EHM Technology Services",
       location: "Faisalabad, Pakistan",
       period: "July 2023 - Present",
       icon: <FaBriefcase />,
-      description: "Developed automated web scraping solutions, built scalable frameworks for dynamic websites, and automated data processing workflows.",
+      description: "Developed production-ready technology website using Next.js. Built automated web scraping frameworks processing 100K+ data points. Implemented OCR and PDF parsing systems extracting structured data with 92% accuracy.",
       current: true
     },
     {
       year: "2022",
       title: "Email Marketing Manager",
-      company: "EHM-IT Services",
+      company: "EHM Technology Services",
       location: "Faisalabad, Pakistan",
       period: "February 2022 - Present",
       icon: <FaEnvelope />,
-      description: "Extracted targeted leads, designed email campaigns, and optimized for better deliverability and conversions.",
+      description: "Designed and executed data-driven email campaigns using custom templates, increasing engagement by 25%. Built automated lead extraction and prospect list generation systems using Python and web scraping.",
       current: true
     },
     {
@@ -31,7 +41,7 @@ const Experience = () => {
       location: "Faisalabad, Pakistan",
       period: "September 2022 - Present",
       icon: <FaGraduationCap />,
-      description: "Pursuing degree with focus on AI/ML, Data Science, and Full-stack Development.",
+      description: "Pursuing degree with focus on Machine Learning, Deep Learning, Computer Vision, NLP, and Databases.",
       current: true
     }
   ];

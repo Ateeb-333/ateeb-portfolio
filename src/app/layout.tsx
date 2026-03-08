@@ -17,6 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://ateeb-portfolio.vercel.app"),
   title: "Ateeb's Portfolio",
   description: "Ateeb Chaudary - Software Engineer | Full-stack Developer & AI/ML Engineer specializing in Next.js, React, Python, and Machine Learning.",
   keywords: ["Ateeb Chaudary", "Software Engineer", "Full Stack Developer", "AI ML Engineer", "Next.js", "React", "Python", "Portfolio"],

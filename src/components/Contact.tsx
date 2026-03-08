@@ -218,7 +218,7 @@ const Contact = () => {
 
             <div className="space-y-4 sm:space-y-6 mb-8 sm:mb-10">
               <motion.a 
-                href="mailto:ateebxasd333@gmail.com" 
+                href="mailto:ateebasad333@gmail.com" 
                 className="flex items-center gap-3 sm:gap-4 group p-3 sm:p-4 rounded-2xl bg-[#141414]/50 border border-gray-800/50 hover:border-[#c9f31c]/50 transition-all duration-300 justify-center lg:justify-start"
                 whileHover={{ x: 5 }}
               >
@@ -263,7 +263,7 @@ const Contact = () => {
             <div className="flex gap-3 sm:gap-4 justify-center lg:justify-start">
               {[
                 { icon: FaGithub, href: 'https://github.com/Ateeb-333', label: 'GitHub' },
-                { icon: FaLinkedin, href: 'https://www.linkedin.com/in/ateeb-chaudary-a6a0a0263/', label: 'LinkedIn' },
+                { icon: FaLinkedin, href: 'https://www.linkedin.com/in/ateeb-chaudary', label: 'LinkedIn' },
                 { icon: FaInstagram, href: 'https://www.instagram.com/ateeb_chaudary', label: 'Instagram' },
               ].map((social, index) => (
                 <motion.a
